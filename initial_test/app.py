@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_login import UserMixin, LoginManager, login_user, current_user, logout_user, login_required
 from datetime import datetime
+import os, json
 import random
 app = Flask(__name__)
 DB_URL = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(user="postgres",pw="postgresFun12",url="127.0.0.1:5432",db="test")
@@ -85,13 +86,21 @@ def register():
 @app.route('/', methods=['POST', 'GET'])
 @login_required
 def index():
-	# if current_user.is_authenticated:
-	# 	return render_template('update.html', user=current_user.username)
-	# else:
-	# 	return redirect('/login')
-	print(current_user)
-	return render_template('loggedin.html', user=current_user.username)
+	if current_user.is_authenticated:
+		return render_template('update.html', user=current_user.username)
+	else:
+		return redirect('/login')
 
+@app.route('/summary')
+def summary():
+	data = os.environ.get('LIGHT-ON')
+	data = {"ON":data}
+	response = app.response_class(
+		response = json.dumps(data),
+		status=200,
+		mimetype='application/json'
+	)
+	return response
 #
 # @app.route('/', methods=['POST', 'GET'])
 # def index():
