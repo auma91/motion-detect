@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Loggedin</title>
+{% endblock %}
+
+{% block body %}
+<div class="limiter">
+	<div class="container-login100">
+		<div style ="width:unset;padding: 33px 130px 33px 95px;" class="wrap-login100">
+
+				<form method="POST" class="login100-form validate-form">
+					<span class="login100-form-title">
+						Welcome {{user}}
+					</span>
+
+
+
+					<div class="container-login100-form-btn">
+						<button type="submit" class="login100-form-btn">
+							Turn Light On
+						</button>
+					</div>
+
+				</form>
+			</div>
+	</div>
+</div>
+{% endblock %}
