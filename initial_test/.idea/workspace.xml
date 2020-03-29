@@ -2,8 +2,134 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c84e7c6-04a8-4383-b61f-bfc523ce1dc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/._Login_v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/._css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/._fonts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/._index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/._js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/._vendor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/css/._main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/css/._util.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/._font-awesome-4.7.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/._montserrat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/._poppins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/._HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/._css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/._fonts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/._less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/._scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/css/._font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/css/._font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/fonts/._FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/fonts/._fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/fonts/._fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/fonts/._fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/fonts/._fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/fonts/._fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/less/._variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/.__variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/font-awesome-4.7.0/scss/._font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._Montserrat-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/montserrat/._OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/fonts/poppins/._Poppins-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/images/._icons" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/images/._img-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/images/icons/._favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/js/._main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/._animate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/._bootstrap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/._css-hamburgers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/._jquery" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/._select2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/._tilt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/animate/._animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/._css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/._js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/css/._bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/css/._bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/css/._bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/css/._bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/css/._bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/css/._bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/css/._bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/css/._bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/css/._bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/css/._bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/css/._bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/css/._bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/js/._bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/js/._bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/js/._popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/js/._popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/bootstrap/js/._tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/css-hamburgers/._hamburgers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/css-hamburgers/._hamburgers.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/jquery/._jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/select2/._select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/select2/._select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/select2/._select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/select2/._select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/Login_v1/vendor/tilt/._tilt.jquery.min.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,20 +139,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="1105">
+              <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#68#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/req.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="84" selection-start-line="31" selection-start-column="84" selection-end-line="31" selection-end-column="84" />
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -145,10 +274,11 @@
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/templates/loggedin.html" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/req.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -242,10 +372,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12328767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12328767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -256,7 +386,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -383,8 +513,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="1105">
+          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/req.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
