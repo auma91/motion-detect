@@ -6,7 +6,7 @@ from datetime import datetime
 import os, json
 import random
 app = Flask(__name__)
-DB_URL = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(user="postgres",pw="postgresFun12",url="127.0.0.1:5432",db="test")
+DB_URL = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(user="rasp",pw="postgresFun12",url="127.0.0.1:5432",db="test")
 app.config['SQLALCHEMY_DATABASE_URI'] = DB_URL
 app.config['SECRET_KEY'] = 'you-will-never-guess'
 db = SQLAlchemy(app)
@@ -15,7 +15,7 @@ login_manager = LoginManager(app)
 login_manager.login_view = 'login'
 # login_manager.login_message_category = 'info'
 
-class User(UserMixin, db.Model):
+class Users(UserMixin, db.Model):
 	id = db.Column(db.Integer, primary_key=True)
 	username = db.Column(db.String(200), nullable=False)
 	email = db.Column(db.String(200), nullable=False)
@@ -32,7 +32,7 @@ class User(UserMixin, db.Model):
 
 @login_manager.user_loader
 def load_user(id):
-	return User.query.get(int(id))
+	return Users.query.get(int(id))
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -42,7 +42,7 @@ def login():
 		else:
 			email = request.form['email']
 			passw = request.form['pass']
-			user = User.query.filter_by(email=email).first()
+			user = Users.query.filter_by(email=email).first()
 			print(user)
 			if user is not None and user.check_password(passw):
 				login_user(user, remember=True)
@@ -72,7 +72,7 @@ def register():
 		email = request.form['email']
 		passw = request.form['pass']
 
-		user = User(username=username, email=email)
+		user = Users(username=username, email=email)
 		user.set_password(passw)
 		db.session.add(user)
 		db.session.commit()
@@ -87,14 +87,18 @@ def register():
 @login_required
 def index():
 	if current_user.is_authenticated:
-		return render_template('update.html', user=current_user.username)
+		return render_template('loggedin.html', user=current_user.username)
 	else:
 		return redirect('/login')
 
 @app.route('/summary')
 def summary():
-	data = os.environ.get('LIGHT-ON')
-	data = {"ON":data}
+	f= open("./static/files/vars.txt","r")
+        lines = f.readlines()
+        light = lines[0]
+        f.close()
+        print(light)
+        data = {"ON":bool(light[6:10])}
 	response = app.response_class(
 		response = json.dumps(data),
 		status=200,
