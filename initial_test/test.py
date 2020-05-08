@@ -14,9 +14,12 @@ def adjust_LED():
 	fail_count = 0
 	while True:
 		data = None
+		f = None
 		try:
+			f = open("/tmp/users.log.txt", "a")
 			data = get_JSON(base_link+endpoint+secret_query)
-			print(data)
+			print(data, file =f)
+			f.close()
 			fail_count = 0
 		except KeyboardInterrupt:
 			print('Keyboard Interruption')
