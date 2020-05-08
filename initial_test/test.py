@@ -34,9 +34,9 @@ def adjust_LED():
 				continue
 		if data['On']:
 			GPIO.output(8, 1)  # Outputs digital HIGH signal (5V) on pin 8
-			time.sleep(5)  # Time delay of 1 second
+			time.sleep(2)  # Time delay of 1 second
 		else:
 			GPIO.output(8, 0)  # Outputs digital LOW signal (0V) on pin 8
-			time.sleep(1)  # Time delay of 1 second
+			time.sleep(2)  # Time delay of 1 second
 if __name__ == '__main__':
 	adjust_LED()
