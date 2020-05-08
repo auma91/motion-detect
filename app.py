@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_login import UserMixin, LoginManager, login_user, current_user, logout_user, login_required
 from datetime import datetime
-import json, psycopg2
+import json, os, psycopg2
 app = Flask(__name__)
 DB_URL = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(user="postgres",pw="postgresFun12",url="127.0.0.1:5432",db="test")
 app.config['SQLALCHEMY_DATABASE_URI'] = DB_URL
@@ -105,6 +105,7 @@ def register():
 @app.route('/', methods=['POST', 'GET'])
 @login_required
 def index():
+	return os.environ.get("DATABASE_URL")
 	if request.method == 'POST':
 		if current_user.is_authenticated:
 			light = Light.query.order_by(Light.date_updated.desc()).first()
