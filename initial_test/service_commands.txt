@@ -1,0 +1,6 @@
+sudo systemctl enable LED.service
+sudo systemctl start LED.service
+sudo systemctl start LED.service
+
+sudo systemctl edit --full LED.service
+sudo systemctl restart LED.service
