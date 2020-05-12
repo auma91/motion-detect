@@ -5,8 +5,7 @@ from flask_login import UserMixin, LoginManager, login_user, current_user, logou
 from datetime import datetime
 import json, os, psycopg2
 app = Flask(__name__)
-DB_URL = 'postgres+psycopg2://ogzggmqiopfiqx:19052aa387dd4b4e913f5bbb42ff4412f4cab7a7352c8ab936c29a9ab0cc17b8@ec2-34-195-169-25.compute-1.amazonaws.com:5432/dd84fbdnt72ebl'
-#'psycopg2+'+ os.environ.get("DATABASE_URL") #'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(user="postgres",pw="postgresFun12",url="127.0.0.1:5432",db="test")
+DB_URL = os.environ.get("DATABASE_URL")[0:8] + '+psycopg2' + os.environ.get("DATABASE_URL")[8::]
 app.config['SQLALCHEMY_DATABASE_URI'] = DB_URL
 app.config['SECRET_KEY'] = 'you-will-never-guess'
 db = SQLAlchemy(app)
@@ -65,10 +64,10 @@ def login():
 			if user is not None and user.check_password(passw):
 				login_user(user, remember=True)
 				next_page = request.args.get('next')
-				print(next_page)
+				#print(next_page)
 				if next_page is None:
 					next_page = url_for('/')
-				print(next_page)
+				#print(next_page)
 				return redirect(next_page)
 			else:
 				return 'Error'
@@ -91,7 +90,7 @@ def register():
 		username = request.form['username']
 		email = request.form['email']
 		passw = request.form['pass']
-		print(username, email, passw)
+		#print(username, email, passw)
 		user = Users(username=username, email=email)
 		user.set_password(passw)
 		db.session.add(user)
@@ -106,11 +105,11 @@ def register():
 @app.route('/', methods=['POST', 'GET'])
 @login_required
 def index():
-	print(os.environ.get("DATABASE_URL"))
+	#print(os.environ.get("DATABASE_URL"))
 	if request.method == 'POST':
 		if current_user.is_authenticated:
 			light = Light.query.order_by(Light.date_updated.desc()).first()
-			print(light)
+			#print(light)
 			light = Light(on = not light.on, user_id_updated = current_user.id)
 			light.update_date()
 			db.session.add(light)
@@ -120,13 +119,13 @@ def index():
 	else:
 		if current_user.is_authenticated:
 			light = Light.query.order_by(Light.date_updated.desc()).first()
-			print(light)
+			#print(light)
 			if light is None:
 				light = Light(on = True, user_id_updated = current_user.id)
-				print(light)
+				#print(light)
 				db.session.add(light)
 				db.session.commit()
-			return render_template('loggedin.html', user=current_user.username, light = "ON" if light.on else "OFF")
+			return render_template('loggedin.html', user=current_user.username, light = "ON" if not light.on else "OFF")
 		else:
 			return redirect('/login')
 
@@ -136,7 +135,7 @@ def summary():
 		light = Light.query.order_by(Light.date_updated.desc()).first()
 		user = load_user(light.user_id_updated)
 		light_dict = {"On": light.on, "Date Updated":str(light.date_updated), "user": {"username": user.username, "email": user.email}}
-		print(light_dict)
+		#print(light_dict)
 		response = app.response_class(
 			response = json.dumps(light_dict),
 			status=200,
